@@ -1,0 +1,60 @@
+.masterhead{
+        background-color: #00205b;
+        border-right-color:  white;
+        align-items: center;
+        }
+.masterheader{
+    display: block;
+    background-color: #00205b;
+    text-align: left;
+}
+
+#RAIT{
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-color:  black;
+}
+.container-fluid{
+    background-color: #00205b;
+}
+.grid-container{
+    display: grid;
+    color: white;
+}
+.navbar-expand-lg{
+    color: royalblue;
+}
+.site-footer{
+    background-color: #00205b;
+}
+.site-footer_nav{
+    text-align: right;
+    color: white;
+    padding: 35px;
+}
+h6{
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: right;
+}
+header h1 {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+    color: yellow;
+}
+header {
+    padding: 35px;
+    background-color: #00205b;
+}
+.csi{
+    display: block;
+    margin-left: 42%;
+    width: 50%;
+    border: 2%;
+}
+.Home-hero{
+    display: block;
+    margin-left: 42%;
+    width: 50%;
+}
