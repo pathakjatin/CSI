@@ -50,6 +50,7 @@
     display: none;
 }
 .menu-bar ul li:hover .drop-about{
+    z-index: 2;
     display: block;
     position: absolute;
     color: #fff;
@@ -60,6 +61,8 @@
     display:block;
     margin: 10px;
 }
+/**/
+
 .menu-item li{
     padding: 0px 8px;
     color: white;
@@ -218,6 +221,13 @@
     height: 20vh;
     width: 30vw;
 }
+.partner:hover{
+    cursor: pointer;
+    background-color: #c6c3c3;
+    opacity: 90%;
+    transition-timing-function: ease-in-out;
+    transition-delay: 0.1s;
+}
 .leader{
     position: absolute;
     font-weight: bold;
@@ -326,6 +336,13 @@
     height: 25vh;
     width: 35vw;
 }
+.work:hover{
+    cursor: pointer;
+    background-color: #00205b;
+    color: #f4f4f4;
+    transition-timing-function: ease-in-out;
+    transition-delay: 0.125s;
+}
 .us{
     position: absolute;
     top: 3vh;
@@ -351,4 +368,60 @@
     font-size: 2.4vh;
     top: 13vh;
     left: 60vw;
+}
+.container-social{
+    bottom: -130vh;
+    position: relative;
+    width: 100vw;
+    height: 25vh;
+    background-color: #00205b;
+}
+footer{
+    display: flex;
+    flex-direction: row;
+    align-content: space-around;
+    position: relative;
+    top: 130vh;
+    height: 35vh;
+    width: 100vw;
+    background-color: #252525;
+}
+.form-control{
+    position: relative;
+    left: 52vw;
+    top: 10vh;
+    height: 7.5vh;
+    width: 20vw;
+    background-color: #252525;
+    border: 2px solid #f4f4f4;
+}
+.btn{
+    color: #f4f4f4;
+    position: relative;
+    left: 52vw;
+    top: 10vh;
+}
+.right{
+    font-weight: bold;
+    position: absolute;
+    color: #f4f4f4;
+    font-size: 1.8vh;
+    left: 62vw;
+    top: 22vh;
+}
+.right a:hover{
+    text-decoration: underline;
+}
+.uni img{
+    position: relative;
+    top: 25px;
+    left: 35px;
+    width: 20vw;
+    height: 20vh;
+}
+.below{
+    color: #f4f4f4;
+    position: absolute;
+    top: 30vh;
+    right: 45vw;
 }
